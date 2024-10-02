@@ -25,7 +25,7 @@ console.log(typeof null)
 
 /*
     object
-    console.log(typeof null) => so it is an object
+    console.log(typeof null) => so its datatype is  object
     console.log(typeof undefined) => so its datatype is undefined only
 
 
