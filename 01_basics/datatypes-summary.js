@@ -91,3 +91,40 @@ console.log(typeof(temp))
 // always remember typeof null will always give it type as
 // object
 
+
+// **********************************************
+
+// Stack , Heap
+// stack is used for primitive data types and we always a copy of the value
+
+// Heap is used for nonprimitive data type and we get reference
+
+let myname = " Aditya Nandan "
+let anothername = myname
+
+anothername = "Nandan"
+console.log(myname)
+console.log(anothername)
+
+// so here above we can see that we get a copy in stack 
+// hence another name did not change the my name
+
+// heap
+
+let userOne = {
+    email : "adityanandan659@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "nandanaditya@gmail.com"
+userTwo.upi = "adi@ybl"
+
+console.log(userOne)
+console.log(userTwo)
+
+// so here we can see that user two changed userone hence
+// what happened that object get stored in heap and and userone 
+// and usertwo get stored in stack and they get reference of 
+// same object hence they change
