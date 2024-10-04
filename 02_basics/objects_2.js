@@ -79,7 +79,7 @@ console.log(stu)
 
 // below are the different ways how we can get api 
 // in the form  of object 
-
+// but this is actually json format
 /*
 {
  "name" : "Aditya"
