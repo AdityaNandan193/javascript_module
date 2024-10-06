@@ -108,3 +108,5 @@ name == "Aditya" ? console.log("yes it is true") : console.log("it is false")
 // so it is simple just ask the condition without if and according to run the true code just after the question mark and run the false code after a colon after the true
 
 
+
+
