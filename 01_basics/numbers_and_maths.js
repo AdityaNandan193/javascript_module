@@ -27,13 +27,13 @@ console.log(hundreds.toLocaleString('en-IN'))
 
 // ------------------------MATHS-------------------------
 
-// console.log(Math)
-// console.log(Math.abs(-4))
-// console.log(Math.round(4.7))
-// console.log(Math.ceil(4.2))
-// console.log(Math.floor(4.9))
-// console.log(Math.min(2,3,4,5,6))
-// console.log(Math.max(2,3,4,5,6,7))
+console.log(Math)
+console.log(Math.abs(-4))
+console.log(Math.round(4.7))
+console.log(Math.ceil(4.2))
+console.log(Math.floor(4.9))
+console.log(Math.min(2,3,4,5,6))
+console.log(Math.max(2,3,4,5,6,7))
 
 console.log(Math.random()) // it always gives random number between 0 and 1
 console.log((Math.random()*10)+1) // it will give random number between 1 and 9

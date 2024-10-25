@@ -1,7 +1,7 @@
 // let score = undefined
 //let score = null
-// let score = "123adi"
-let score = true
+let score = "123adi"
+// let score = true
 
 // console.log(typeof score)
 
@@ -26,9 +26,9 @@ let valueInBool = Boolean(isLoggedIn)
 let aNumber = 33
 
 let numToString = String(aNumber)
-// console.log(numToString)
-// console.log(typeof aNumber)
-// console.log(typeof numToString)
+console.log(numToString)
+console.log(typeof aNumber)
+console.log(typeof numToString)
 
 // ****************** operations **************
 

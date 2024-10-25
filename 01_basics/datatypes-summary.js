@@ -17,7 +17,7 @@ let userEmail // so it is undefined
 const id1 = Symbol('123')
 const anotherid = Symbol('123')
 
-console.log(id === anotherid)
+console.log(id1 === anotherid)
 
 
 console.log(typeof(userEmail))

@@ -15,6 +15,7 @@ console.log(gameName[0]);
 console.log(gameName.length);
 console.log(gameName.toUpperCase());
 console.log(gameName)
+console.log(typeof gameName)
 
 const updatedgame = gameName.toLowerCase()
 console.log(updatedgame)
@@ -31,9 +32,18 @@ console.log(newString)
 const anotherString = gameName.slice(-8, 4)
 console.log(anotherString)
 
+/*
+Understanding slice(-8, 4):
+
+Here, start is -8, so it will count 8 characters back from the end of 'Aditya Nandan', which brings it to the character 't'.
+end is 4, meaning it will slice up to, but not including, index 4.
+However, because the start position (-8, equivalent to index 6 from the start) is after the end position (4), the slice returns an empty string.
+*/
+
 // we can use -ve starting point in slice but not in substring
 // in -ve start point it will start from rhs side of string
 // the end index is not included
+
 
 // The trim() method of String values removes whitespace from both ends of this string and returns a new string, without modifying the original string.
 
@@ -48,6 +58,12 @@ console.log(myName.trimStart())
 
 const email = "adityanandan659@gmail.com"
 console.log(email.replace('@' , '_'))
+
+let email2 = "adityanandan659@@gmail.com";
+// Replace all occurrences of '@' with '_'
+email2 = email2.replace(/@/g, '_');
+console.log(email2); // Output: "adityanandan659__gmail.com"
+
 
 console.log(email.includes('aditya'))
 console.log(email.includes('bitu'))
