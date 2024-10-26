@@ -6,7 +6,7 @@
 let arr = [1,2 ,3,4,5]
 
 for(const num of arr){
-    // console.log(num)
+    console.log(num)
 }
 
 const greeting = "Hello World!"
@@ -26,13 +26,13 @@ map.set('IN' , "India")
 map.set('usa' , "united states of america")
 map.set('Fr' , "france")
 
-// console.log(map)
+console.log(map)
 
 // A map is used for unique entries only and its key and value
 // can be of any data type and it also remembers the order of insertions
 
 for(const [key, value] of map){
-    // console.log(`${key} :- ${value}`)
+    console.log(`${key} :- ${value}`)
 }
 
 // maps are iterable hence it can be iterated in this way
@@ -50,7 +50,7 @@ Unlike the map() method, which creates a new array with the results of applying 
 const coding = ["js" , "java" , "ruby" , "python" ,"cpp"]
 
 coding.forEach(function(val){
-    // console.log(val)
+    console.log(val)
 })
 
 // so this forEach has a callback function and it does not have a  name  here directly goes and take the elements from the array
@@ -61,14 +61,14 @@ coding.forEach((item) => {
 })
 
 function print(item){
-    // console.log(item)
+    console.log(item)
 }
 
 coding.forEach(print) // so here we are only passing the reference of the function hence we have written only print
 
 
 coding.forEach((item, index, arr) => {
-    // console.log(item, index, arr)
+    console.log(item, index, arr)
 })
 
 // things about array of objects
@@ -90,7 +90,7 @@ const myCoding = [
 ]
 
 myCoding.forEach((item) => {
-    // console.log(item.langName)
+    console.log(item.langName)
 })
 
 // some advanced things about forEach

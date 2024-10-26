@@ -1,7 +1,7 @@
 // singleton object
 
-const tinderUser = new Object()
-// const tinderUser = {}
+const tinderUser = new Object()  // SINGLETON
+// const tinderUser = {} //NON- SINGLETON
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -29,7 +29,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = Object.assign({}, obj1, obj2, obj4) here what happened that 1st curly braces is the 
 // target object and we need to put all other objects into it
 
-const obj3 = {...obj1, ...obj2} // it is the spread method need to jointhe objects in one majority used
+const obj3 = {...obj1, ...obj2} // it is the spread method need to jointhe objects in one (majority used)
 // console.log(obj3);
 
 // this is how we handle data coming from the database
@@ -49,15 +49,15 @@ const users = [
 ]
 
 users[1].email
-// console.log(tinderUser);
+console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
 
 // this three gives the value in form of array
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 // this is used to check if the object contains this property or not
 
 const course = {
@@ -90,8 +90,8 @@ console.log(stu)
 
 // in the form of array of objects
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]

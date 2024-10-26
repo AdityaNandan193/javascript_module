@@ -1,6 +1,6 @@
 // Immediately Invoked Function Expressions(IIFE)
 
-// TO REMOVE THE POLLUTION FROM THE GLOBAL SCORE IIFE IS USED
+// TO REMOVE THE POLLUTION FROM THE GLOBAL SCOPE IIFE IS USED
 // AND TO IMMEDIATELY INVOKE THE FUNCTION ALSO
 
 // syntax :- ()() so first bracket is for definition of function
@@ -15,4 +15,4 @@
 ( (name) => {
     // unnamed iife
     console.log(`db connected two ${name}`)
-}) ('hitesh');
+}) ('aditya');

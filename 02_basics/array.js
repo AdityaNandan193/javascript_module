@@ -9,8 +9,10 @@ JavaScript array-copy operations create shallow copies. (All standard built-in c
 
 const arr = [0,2,3,4,5,6,7]
 const myHeros = ["ironman" ,"hulk" , "captain america" ,"thor"]
+console.log(typeof myHeros)
 
 const myArr2 = new Array(1,2,3,4)
+console.log(typeof myArr2)
 console.log(arr[2])
 console.log(myArr2.length)
 console.log(myHeros)

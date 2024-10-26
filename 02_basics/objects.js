@@ -22,11 +22,14 @@
  
  };
 
+ 
+
  // methods to access elements of objects
 
 //  console.log(user.email)
  console.log(user["email"])
  console.log(user["full name"]) // so this is the only way to access full name because it can't be accessed by dot method
+ 
  console.log(user[mySym])
 
  user.email = "aditya@gmail.com"

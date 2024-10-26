@@ -1,11 +1,11 @@
 const marvel = ["Thor" , "Iron man" , "hulk" , "hawkeye" ,"dr strange"]
 const dc = ["batman" , "aquaman" ,"flash" ,"wonder woman"]
 
-// marvel.push(dc) it will whole dc array into marvel array;
+// marvel.push(dc) // it will whole dc array into marvel array;
 // console.log(marvel) 
 
 const heros = marvel.concat(dc) // so it combines both array and give new array
-// console.log(heros)
+console.log(heros)
 
 //spread operator -- make elements of array individual elements
 

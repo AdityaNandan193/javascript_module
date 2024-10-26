@@ -9,7 +9,7 @@ const object = {
 // we can only use for in loop for objects
 
 for(const key in object){
-    // console.log(`${key}  is shortcut for the ${object[key]}`)
+    console.log(`${key}  is shortcut for the ${object[key]}`)
     // so here we can see that simply key give the key of the object and object[key] gives the value of the corresponding key
 }
 

@@ -21,7 +21,7 @@
 //     console.log(`User power : ${power} `)
 // }
 
-// console.log(`user power : ${power}`) it will throw error because of local score power is declared locally inside if 
+// console.log(`user power : ${power}`) it will throw error because of local scope power is declared locally inside if 
 
 // const balance = 1000
 

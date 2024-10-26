@@ -68,7 +68,7 @@ function handleObject(object){
     console.log(`my name is ${object.username} and the price is ${object.price}`)
 }
 
-// handleObject(user) 
+handleObject(user) 
 // another way of passing object is :-
 
 handleObject({

@@ -22,6 +22,7 @@ console.log(this)  // here this is giving a blank object because
 // but actually on browser engine this will not give empty 
 // object it will give window object
 
+
 // function one(){
 //     let username = "Aditya"
 //     console.log(this.username) 
@@ -31,11 +32,11 @@ console.log(this)  // here this is giving a blank object because
 // not work here..
 
 
-// const one = () => {
-//     let username = "hitesh"
-//     console.log(this)
-// }
-// one()
+const one = () => {
+    let username = "hitesh"
+    console.log(this)
+}
+one()
 
 // this is arrow function in this simply we don't use the
 // function keyword we just use prenthesis for parameters 

@@ -24,26 +24,26 @@ switch(month){
 // got matched then it will all other cases without even matching except default and default is executed if no any case is matched
 
 
-const newmonth = "april"
+// const newmonth = "april"
 
-switch(newmonth){
-    case "jan":
-        console.log("january")
-        break;
-    case "feb":
-        console.log("february")
-        break;
-    case "march":
-        console.log("march")
-        break;
-    case "april":
-        console.log("april")
-        break;
+// switch(newmonth){
+//     case "jan":
+//         console.log("january")
+//         break;
+//     case "feb":
+//         console.log("february")
+//         break;
+//     case "march":
+//         console.log("march")
+//         break;
+//     case "april":
+//         console.log("april")
+//         break;
 
-    default:
-        console.log("this is by default ")
-        break;
-}
+//     default:
+//         console.log("this is by default ")
+//         break;
+// }
    
     
   

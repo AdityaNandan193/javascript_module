@@ -9,12 +9,12 @@ if(true){
     // console.log("inner : " , a)
 }
 
-// console.log(a)
+console.log(a)
 
-// console.log(c) so this is printing inner c which is wrong
+ console.log(c) //so this is printing inner c which is wrong
 // so do not use var 
 
-// the variables nside if is local or block scope
+// the variables inside if is local or block scope
 // the variables outside if is global scope and they
 // are applicable in whole program
 
@@ -25,7 +25,7 @@ function one(){
         const website = "youtube"
         console.log(user)
     }
-    // console.log(website)
+    // console.log(website)  it will give error 
     two()
 }
 one()
@@ -53,10 +53,10 @@ function addone(num){
 }
 // this is ok no problem in it we can do this 
 
-console.log(addtwo(7))
-const addtwo = function(num){
-    return num+1
-}
+// console.log(addtwo(7))
+// const addtwo = function(num){
+//     return num+1
+// }
 
 // this is wrong we can't do it because we are accesing a variable 
 // without declaring it so it is a problem
